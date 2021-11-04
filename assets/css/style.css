@@ -1,0 +1,29 @@
+section {
+    display:grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    gap:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pic1 {
+    display: flex;
+    position: relative;
+    top: -243px;
+    color: whitesmoke;
+    
+opacity: 0;
+    background: rgb(129, 64, 64,0.5);
+    cursor: pointer;
+    transition: all 300ms ease-out;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.pic1:hover {
+    transform: translateY(40px);
+    opacity: 1;
+    
+}
+
+
